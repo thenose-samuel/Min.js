@@ -39,7 +39,7 @@ function removeStyle(element, name) {
 }
 
 
-export function setAttribute(element, name, value) {
+function setAttribute(element, name, value) {
     if (value == null) {
         removeAttribute(element, name)
     } else if (name.startsWith('data-')) {
@@ -49,7 +49,7 @@ export function setAttribute(element, name, value) {
     }
 }
 
-export function removeAttribute(element, name) {
+function removeAttribute(element, name) {
     element[name] = null
     element.removeAttribute(name)
 }

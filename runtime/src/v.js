@@ -11,8 +11,9 @@ export function v(tag, props = {}, children = []) {
     return {
         tag,
         props,
-        children: mapTextNodes(withoutNulls(props)),
-        type: DOM_TYPES.ELEMENT
+        el: null,
+        children: mapTextNodes(withoutNulls(children)),
+        type: DOM_TYPES.ELEMENT,
     }
 }
 
