@@ -1,0 +1,1 @@
+A custom web framework [built from scratch](https://www.manning.com/books/build-a-frontend-web-framework-from-scratch?utm_source=github&utm_medium=author&utm_campaign=book_orbaiceta_build_2_28_23) for personal exploration.
